@@ -40,8 +40,8 @@ func Load() Config {
 	cfg.DB_HOST = cast.ToString(coalesce("DB_HOST", "localhost"))
 	cfg.DB_PORT = cast.ToInt(coalesce("DB_PORT", 5432))
 	cfg.DB_USER = cast.ToString(coalesce("DB_USER", "postgres"))
-	cfg.DB_NAME = cast.ToString(coalesce("DB_NAME", "postgres"))
-	cfg.DB_PASSWORD = cast.ToString(coalesce("DB_PASSWORD", "password"))
+	cfg.DB_NAME = cast.ToString(coalesce("DB_NAME", "nt"))
+	cfg.DB_PASSWORD = cast.ToString(coalesce("DB_PASSWORD", "0412"))
 	cfg.ACCESS_TOKEN = cast.ToString(coalesce("ACCESS_TOKEN", "my_secret_key"))
 	cfg.REFRESH_TOKEN = cast.ToString(coalesce("REFRESH_TOKEN", "my_secret_key"))
 

@@ -1,0 +1,186 @@
+{"time":"2024-07-17T08:23:54.51716152+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T08:23:54.518556087+05:00","level":"ERROR","msg":"rpc error: code = Unimplemented desc = method LoginUser not implemented"}
+{"time":"2024-07-17T08:24:38.006176073+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T08:24:38.00649814+05:00","level":"ERROR","msg":"rpc error: code = Unimplemented desc = method LoginUser not implemented"}
+{"time":"2024-07-17T08:29:34.103959959+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T08:30:26.849651481+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T08:31:18.526366827+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T08:34:47.373037973+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T08:38:20.862632526+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T08:41:59.132810379+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T08:43:22.074081979+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T08:43:55.834156796+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T08:53:07.981249407+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T08:54:12.63475013+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T08:54:34.582844819+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T09:06:18.786315363+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T09:06:18.797894461+05:00","level":"INFO","msg":"login is successfully ended"}
+{"time":"2024-07-17T09:06:29.660100374+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T09:06:29.660657681+05:00","level":"INFO","msg":"login is successfully ended"}
+{"time":"2024-07-17T09:07:31.746717124+05:00","level":"INFO","msg":"Logout is working"}
+{"time":"2024-07-17T09:07:31.746788343+05:00","level":"INFO","msg":"Logout ended"}
+{"time":"2024-07-17T09:08:21.734202725+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T09:08:21.734927804+05:00","level":"INFO","msg":"login is successfully ended"}
+{"time":"2024-07-17T09:08:45.090582076+05:00","level":"INFO","msg":"Refresh is working"}
+{"time":"2024-07-17T09:09:31.506539487+05:00","level":"INFO","msg":"Register is starting"}
+{"time":"2024-07-17T09:09:31.514868113+05:00","level":"ERROR","msg":"pq: column \"user_name\" of relation \"users\" does not exist"}
+{"time":"2024-07-17T09:11:58.631071953+05:00","level":"INFO","msg":"Register is starting"}
+{"time":"2024-07-17T09:11:58.645096851+05:00","level":"INFO","msg":"Register ended"}
+{"time":"2024-07-17T09:31:26.264482201+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T09:31:26.266162985+05:00","level":"INFO","msg":"login is successfully ended"}
+{"time":"2024-07-17T09:42:08.734103058+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T09:42:08.736197466+05:00","level":"INFO","msg":"login is successfully ended"}
+{"time":"2024-07-17T10:12:49.991747538+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T10:12:49.992979757+05:00","level":"INFO","msg":"login is successfully ended"}
+{"time":"2024-07-17T10:43:11.824978437+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T10:43:11.825612343+05:00","level":"INFO","msg":"login is successfully ended"}
+{"time":"2024-07-17T11:05:30.30412142+05:00","level":"INFO","msg":"List Profile rpc method started"}
+{"time":"2024-07-17T11:05:30.304404074+05:00","level":"ERROR","msg":"pq: syntax error at or near \"=\""}
+{"time":"2024-07-17T11:05:33.508383758+05:00","level":"INFO","msg":"List Profile rpc method started"}
+{"time":"2024-07-17T11:05:33.508651261+05:00","level":"ERROR","msg":"pq: syntax error at or near \"=\""}
+{"time":"2024-07-17T11:06:45.495774908+05:00","level":"INFO","msg":"List Profile rpc method started"}
+{"time":"2024-07-17T11:06:45.497136899+05:00","level":"INFO","msg":"GetUsers rpc method finished"}
+{"time":"2024-07-17T11:07:05.074318003+05:00","level":"INFO","msg":"GetProfile rpc method started"}
+{"time":"2024-07-17T11:07:05.074700267+05:00","level":"ERROR","msg":"pq: column \"id\" does not exist"}
+{"time":"2024-07-17T11:08:32.0475257+05:00","level":"INFO","msg":"GetProfile rpc method started"}
+{"time":"2024-07-17T11:08:32.047808935+05:00","level":"ERROR","msg":"pq: column \"id\" does not exist"}
+{"time":"2024-07-17T11:11:13.154146563+05:00","level":"INFO","msg":"GetProfile rpc method started"}
+{"time":"2024-07-17T11:11:13.154593796+05:00","level":"ERROR","msg":"pq: column \"id\" does not exist"}
+{"time":"2024-07-17T11:11:25.000918196+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T11:11:25.0022065+05:00","level":"INFO","msg":"login is successfully ended"}
+{"time":"2024-07-17T11:11:49.789523957+05:00","level":"INFO","msg":"GetProfile rpc method started"}
+{"time":"2024-07-17T11:11:49.789993707+05:00","level":"ERROR","msg":"pq: column \"id\" does not exist"}
+{"time":"2024-07-17T11:13:08.251460134+05:00","level":"INFO","msg":"GetProfile rpc method started"}
+{"time":"2024-07-17T11:13:08.252752618+05:00","level":"INFO","msg":"GetProfile rpc method finished"}
+{"time":"2024-07-17T11:14:03.171276547+05:00","level":"INFO","msg":"UpdateProfile rpc method started"}
+{"time":"2024-07-17T11:14:03.171803486+05:00","level":"ERROR","msg":"pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-07-17T11:18:47.507830249+05:00","level":"INFO","msg":"UpdateProfile rpc method started"}
+{"time":"2024-07-17T11:18:47.508237782+05:00","level":"ERROR","msg":"pq: invalid input syntax for type uuid: \"string\""}
+{"time":"2024-07-17T11:19:58.072043601+05:00","level":"INFO","msg":"UpdateProfile rpc method started"}
+{"time":"2024-07-17T11:19:58.083641911+05:00","level":"ERROR","msg":"sql: expected 6 destination arguments in Scan, not 7"}
+{"time":"2024-07-17T11:20:19.186873924+05:00","level":"INFO","msg":"UpdateProfile rpc method started"}
+{"time":"2024-07-17T11:20:19.197422821+05:00","level":"ERROR","msg":"sql: expected 6 destination arguments in Scan, not 7"}
+{"time":"2024-07-17T11:21:56.187132073+05:00","level":"INFO","msg":"UpdateProfile rpc method started"}
+{"time":"2024-07-17T11:21:56.197348292+05:00","level":"ERROR","msg":"sql: expected 6 destination arguments in Scan, not 7"}
+{"time":"2024-07-17T11:23:49.203275544+05:00","level":"INFO","msg":"UpdateProfile rpc method started"}
+{"time":"2024-07-17T11:23:49.213556028+05:00","level":"ERROR","msg":"sql: expected 6 destination arguments in Scan, not 7"}
+{"time":"2024-07-17T11:25:56.021076994+05:00","level":"INFO","msg":"UpdateProfile rpc method started"}
+{"time":"2024-07-17T11:25:56.031230806+05:00","level":"ERROR","msg":"sql: expected 6 destination arguments in Scan, not 7"}
+{"time":"2024-07-17T11:34:48.728647207+05:00","level":"INFO","msg":"UpdateProfile rpc method started"}
+{"time":"2024-07-17T11:34:48.739857735+05:00","level":"ERROR","msg":"sql: expected 6 destination arguments in Scan, not 7"}
+{"time":"2024-07-17T11:42:31.482640284+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T11:42:31.48441245+05:00","level":"INFO","msg":"login is successfully ended"}
+{"time":"2024-07-17T11:42:53.987369449+05:00","level":"INFO","msg":"UpdateProfile rpc method started"}
+{"time":"2024-07-17T11:42:53.99780639+05:00","level":"ERROR","msg":"sql: expected 6 destination arguments in Scan, not 7"}
+{"time":"2024-07-17T11:45:46.556065582+05:00","level":"INFO","msg":"UpdateProfile rpc method started"}
+{"time":"2024-07-17T11:45:46.566249788+05:00","level":"INFO","msg":"UpdateProfile rpc method finished"}
+{"time":"2024-07-17T11:48:03.285083858+05:00","level":"INFO","msg":"DeleteUser rpc method started"}
+{"time":"2024-07-17T11:48:03.294489791+05:00","level":"ERROR","msg":"pq: update or delete on table \"users\" violates foreign key constraint \"stories_author_id_fkey\" on table \"stories\""}
+{"time":"2024-07-17T11:48:17.534082409+05:00","level":"INFO","msg":"Activity user"}
+{"time":"2024-07-17T11:48:29.220484017+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T11:48:29.220793405+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: column \"follower_id\" of relation \"users\" does not exist"}
+{"time":"2024-07-17T11:48:29.22082558+05:00","level":"INFO","msg":"Follow rpc method finished"}
+{"time":"2024-07-17T11:48:45.739504699+05:00","level":"INFO","msg":"Follower to user"}
+{"time":"2024-07-17T11:48:45.739797816+05:00","level":"ERROR","msg":"Failed followers to users gets","error":"pq: got 2 parameters but the statement requires 3"}
+{"time":"2024-07-17T12:05:45.471658796+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T12:05:45.47226327+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: column \"follower_id\" of relation \"users\" does not exist"}
+{"time":"2024-07-17T12:05:45.472283372+05:00","level":"INFO","msg":"Follow rpc method finished"}
+{"time":"2024-07-17T12:06:04.129285873+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T12:06:04.129572838+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: column \"follower_id\" of relation \"users\" does not exist"}
+{"time":"2024-07-17T12:06:04.129588402+05:00","level":"INFO","msg":"Follow rpc method finished"}
+{"time":"2024-07-17T12:07:52.450362191+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T12:07:52.450654175+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: column \"follower_id\" of relation \"users\" does not exist"}
+{"time":"2024-07-17T12:07:52.450672926+05:00","level":"INFO","msg":"Follow rpc method finished"}
+{"time":"2024-07-17T12:09:43.907397169+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T12:09:43.90763947+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: column \"follower_id\" of relation \"users\" does not exist"}
+{"time":"2024-07-17T12:09:43.907663524+05:00","level":"INFO","msg":"Follow rpc method finished"}
+{"time":"2024-07-17T12:10:14.792814256+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T12:10:14.794377393+05:00","level":"INFO","msg":"login is successfully ended"}
+{"time":"2024-07-17T12:10:30.294666485+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T12:10:30.294958972+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: column \"follower_id\" of relation \"users\" does not exist"}
+{"time":"2024-07-17T12:10:30.294976492+05:00","level":"INFO","msg":"Follow rpc method finished"}
+{"time":"2024-07-17T12:12:28.353068665+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T12:12:28.353357711+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: column \"follower_id\" of relation \"users\" does not exist"}
+{"time":"2024-07-17T12:12:28.353380298+05:00","level":"INFO","msg":"Follow rpc method finished"}
+{"time":"2024-07-17T12:14:10.226082762+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T12:14:10.226395405+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: column \"follower_id\" of relation \"users\" does not exist"}
+{"time":"2024-07-17T12:14:10.226413984+05:00","level":"INFO","msg":"Follow rpc method finished"}
+{"time":"2024-07-17T12:14:49.754490935+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T12:14:49.754806281+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: column \"follower_id\" of relation \"users\" does not exist"}
+{"time":"2024-07-17T12:14:49.754831225+05:00","level":"INFO","msg":"Follow rpc method finished"}
+{"time":"2024-07-17T12:17:02.658759692+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T12:17:02.659595347+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: column \"follower_id\" of relation \"users\" does not exist"}
+{"time":"2024-07-17T12:18:01.882598922+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T12:18:01.894179357+05:00","level":"INFO","msg":"Follow rpc method finished"}
+{"time":"2024-07-17T12:18:12.603076434+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T12:18:12.603700257+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: duplicate key value violates unique constraint \"followers_pkey\""}
+{"time":"2024-07-17T12:18:12.777920852+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T12:18:12.778392966+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: duplicate key value violates unique constraint \"followers_pkey\""}
+{"time":"2024-07-17T12:18:12.920081707+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T12:18:12.920524389+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: duplicate key value violates unique constraint \"followers_pkey\""}
+{"time":"2024-07-17T12:18:13.052521108+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T12:18:13.053671382+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: duplicate key value violates unique constraint \"followers_pkey\""}
+{"time":"2024-07-17T12:18:13.22828899+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T12:18:13.228848452+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: duplicate key value violates unique constraint \"followers_pkey\""}
+{"time":"2024-07-17T12:25:54.782161543+05:00","level":"INFO","msg":"Follower to user"}
+{"time":"2024-07-17T12:25:54.782884532+05:00","level":"ERROR","msg":"Failed followers to users gets","error":"pq: got 2 parameters but the statement requires 3"}
+{"time":"2024-07-17T12:25:58.559710378+05:00","level":"INFO","msg":"Follower to user"}
+{"time":"2024-07-17T12:25:58.559993895+05:00","level":"ERROR","msg":"Failed followers to users gets","error":"pq: got 2 parameters but the statement requires 3"}
+{"time":"2024-07-17T12:27:17.972007192+05:00","level":"INFO","msg":"Follower to user"}
+{"time":"2024-07-17T12:27:17.972302403+05:00","level":"ERROR","msg":"Failed followers to users gets","error":"pq: got 2 parameters but the statement requires 3"}
+{"time":"2024-07-17T12:29:35.733230008+05:00","level":"INFO","msg":"Follower to user"}
+{"time":"2024-07-17T12:29:35.733596728+05:00","level":"ERROR","msg":"Failed followers to users gets","error":"pq: got 2 parameters but the statement requires 3"}
+{"time":"2024-07-17T12:30:50.708297713+05:00","level":"INFO","msg":"Follower to user"}
+{"time":"2024-07-17T12:30:50.708575305+05:00","level":"ERROR","msg":"Failed followers to users gets","error":"pq: got 2 parameters but the statement requires 3"}
+{"time":"2024-07-17T12:34:02.828439742+05:00","level":"INFO","msg":"Follower to user"}
+{"time":"2024-07-17T15:32:04.38413981+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T15:32:04.386252522+05:00","level":"INFO","msg":"login is successfully ended"}
+{"time":"2024-07-17T15:36:42.10012299+05:00","level":"INFO","msg":"Logout is working"}
+{"time":"2024-07-17T15:36:42.100188348+05:00","level":"INFO","msg":"Logout ended"}
+{"time":"2024-07-17T16:00:13.42070375+05:00","level":"INFO","msg":"Logout is working"}
+{"time":"2024-07-17T16:00:13.420810488+05:00","level":"INFO","msg":"Logout ended"}
+{"time":"2024-07-17T16:00:18.632784744+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T16:00:18.634852966+05:00","level":"INFO","msg":"login is successfully ended"}
+{"time":"2024-07-17T16:00:45.712588353+05:00","level":"INFO","msg":"Refresh is working"}
+{"time":"2024-07-17T16:15:21.092402265+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T16:15:21.093021193+05:00","level":"INFO","msg":"login is successfully ended"}
+{"time":"2024-07-17T16:15:43.035593119+05:00","level":"INFO","msg":"Register is starting"}
+{"time":"2024-07-17T16:15:43.04631765+05:00","level":"INFO","msg":"Register ended"}
+{"time":"2024-07-17T16:15:49.552640823+05:00","level":"INFO","msg":"Register is starting"}
+{"time":"2024-07-17T16:15:49.553734635+05:00","level":"ERROR","msg":"pq: duplicate key value violates unique constraint \"users_username_key\""}
+{"time":"2024-07-17T16:16:10.888863326+05:00","level":"INFO","msg":"Register is starting"}
+{"time":"2024-07-17T16:16:10.889499278+05:00","level":"ERROR","msg":"pq: duplicate key value violates unique constraint \"users_email_key\""}
+{"time":"2024-07-17T16:16:30.214758211+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T16:16:30.215349463+05:00","level":"INFO","msg":"login is successfully ended"}
+{"time":"2024-07-17T16:16:49.565136412+05:00","level":"INFO","msg":"Refresh is working"}
+{"time":"2024-07-17T16:20:06.585091176+05:00","level":"INFO","msg":"DeleteUser rpc method started"}
+{"time":"2024-07-17T16:20:06.593844856+05:00","level":"ERROR","msg":"pq: update or delete on table \"users\" violates foreign key constraint \"followers_following_id_fkey\" on table \"followers\""}
+{"time":"2024-07-17T16:23:16.129497618+05:00","level":"INFO","msg":"Activity user"}
+{"time":"2024-07-17T16:24:12.34646396+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T16:24:12.356822162+05:00","level":"INFO","msg":"Follow rpc method finished"}
+{"time":"2024-07-17T16:24:41.747611612+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T16:24:41.757967014+05:00","level":"INFO","msg":"Follow rpc method finished"}
+{"time":"2024-07-17T16:25:06.020784045+05:00","level":"INFO","msg":"Follower to user"}
+{"time":"2024-07-17T16:25:34.668366655+05:00","level":"INFO","msg":"Follower to user"}
+{"time":"2024-07-17T16:25:34.668721318+05:00","level":"ERROR","msg":"Failed followers to users gets","error":"pq: invalid input syntax for type uuid: \"2d194fd1-3fc9-4490-bd7a-4ad794acc207\"\""}
+{"time":"2024-07-17T16:25:41.219912989+05:00","level":"INFO","msg":"Follower to user"}
+{"time":"2024-07-17T16:47:41.804499848+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T16:47:41.805171906+05:00","level":"INFO","msg":"login is successfully ended"}
+{"time":"2024-07-17T16:51:00.694402947+05:00","level":"INFO","msg":"List Profile rpc method started"}
+{"time":"2024-07-17T16:51:00.695855556+05:00","level":"INFO","msg":"GetUsers rpc method finished"}
+{"time":"2024-07-17T16:55:25.907987454+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T16:55:25.909830849+05:00","level":"INFO","msg":"login is successfully ended"}
+{"time":"2024-07-17T16:55:39.434862055+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T16:55:39.435812231+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: duplicate key value violates unique constraint \"followers_pkey\""}
+{"time":"2024-07-17T16:55:56.9273061+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T16:55:56.927791742+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: duplicate key value violates unique constraint \"followers_pkey\""}
+{"time":"2024-07-17T16:56:55.706398395+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T16:56:55.706854329+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: duplicate key value violates unique constraint \"followers_pkey\""}
+{"time":"2024-07-17T16:57:16.680854431+05:00","level":"INFO","msg":"Follower to user"}
+{"time":"2024-07-17T16:57:46.639287433+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T16:57:46.639897551+05:00","level":"ERROR","msg":"Failed user to follow","error":"pq: duplicate key value violates unique constraint \"followers_pkey\""}
+{"time":"2024-07-17T16:59:04.584778563+05:00","level":"INFO","msg":"Login is working"}
+{"time":"2024-07-17T16:59:04.585614107+05:00","level":"INFO","msg":"login is successfully ended"}
+{"time":"2024-07-17T16:59:20.234646537+05:00","level":"INFO","msg":"Follow user"}
+{"time":"2024-07-17T16:59:20.24584701+05:00","level":"INFO","msg":"Follow rpc method finished"}
+{"time":"2024-07-17T16:59:38.592347402+05:00","level":"INFO","msg":"Follower to user"}

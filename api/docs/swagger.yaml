@@ -1,0 +1,188 @@
+definitions:
+  auth_service.LoginRequest:
+    properties:
+      email:
+        type: string
+      password:
+        type: string
+    type: object
+  auth_service.RefreshTokenRequest:
+    properties:
+      refresh_token:
+        type: string
+    type: object
+  auth_service.RegisterRequest:
+    properties:
+      email:
+        type: string
+      full_name:
+        type: string
+      password:
+        type: string
+      username:
+        type: string
+    type: object
+  auth_service.RegisterResponce:
+    properties:
+      created_at:
+        type: string
+      email:
+        type: string
+      full_name:
+        type: string
+      id:
+        type: string
+      username:
+        type: string
+    type: object
+  auth_service.ResetPasswordRequest:
+    properties:
+      email:
+        type: string
+      user_id:
+        type: string
+    type: object
+  auth_service.Tokens:
+    properties:
+      accestoken:
+        type: string
+      refreshtoken:
+        type: string
+    type: object
+info:
+  contact: {}
+paths:
+  /api/v1/auth/login:
+    post:
+      description: it generates new access and refresh tokens
+      parameters:
+      - description: username and password
+        in: body
+        name: LoginRequest
+        required: true
+        schema:
+          $ref: '#/definitions/auth_service.LoginRequest'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/auth_service.Tokens'
+        "400":
+          description: Invalid request
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal server error
+          schema:
+            additionalProperties: true
+            type: object
+      summary: login user
+      tags:
+      - auth
+  /api/v1/auth/logout:
+    post:
+      description: you log out
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+      summary: Logout user
+      tags:
+      - auth
+  /api/v1/auth/refresh:
+    post:
+      description: it changes your access token
+      parameters:
+      - description: token
+        in: body
+        name: userinfo
+        required: true
+        schema:
+          $ref: '#/definitions/auth_service.RefreshTokenRequest'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/auth_service.Tokens'
+        "400":
+          description: Invalid date
+          schema:
+            type: string
+        "401":
+          description: Invalid token
+          schema:
+            type: string
+        "500":
+          description: error while reading from server
+          schema:
+            type: string
+      summary: Refresh token
+      tags:
+      - auth
+  /api/v1/auth/register:
+    post:
+      description: create new users
+      parameters:
+      - description: User info
+        in: body
+        name: info
+        required: true
+        schema:
+          $ref: '#/definitions/auth_service.RegisterRequest'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/auth_service.RegisterResponce'
+        "400":
+          description: Invalid data
+          schema:
+            type: string
+        "500":
+          description: Server error
+          schema:
+            type: string
+      summary: Register user
+      tags:
+      - auth
+  /api/v1/auth/reset-password:
+    post:
+      description: it changes your password to new one
+      parameters:
+      - description: passwords
+        in: body
+        name: userinfo
+        required: true
+        schema:
+          $ref: '#/definitions/auth_service.ResetPasswordRequest'
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+        "400":
+          description: Invalid date
+          schema:
+            type: string
+        "401":
+          description: Invalid token
+          schema:
+            type: string
+        "500":
+          description: error while reading from server
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: ResetPass user
+      tags:
+      - auth
+securityDefinitions:
+  ApiKeyAuth:
+    description: API Gateway of Authorazation
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
